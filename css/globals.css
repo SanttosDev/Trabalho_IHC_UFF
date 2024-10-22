@@ -26,6 +26,7 @@ a {
 }
 
 h1 {
+  color: black;
   font-size: 6.4rem;
   font-weight: 700;
   color: var(--primary-color);

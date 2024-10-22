@@ -1,13 +1,13 @@
 :root {
-  --white: #f5f5f5;
+  --white: #cfcdcd;
   --gray: #ffffff;
-  --black: #ffffff;
-  --primary-color: #ffffff;
-  --secondary-color: #ffffff;
+  --black: rgb(0, 0, 0);
+  --primary-color: rgb(0, 0, 0);
+  --secondary-color: rgb(0, 0, 0);
   --dark-secondary-color: #ffffff;
   --tertiary-color: #ffffff;
   --light-tertiary-color: #f5f5f5;
-  --text-color: #ffffff;
+  --text-color: rgb(0, 0, 0);
 
   --font-family: 'DM Sans', sans-serif;
 }
