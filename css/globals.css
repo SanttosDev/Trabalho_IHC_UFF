@@ -145,3 +145,14 @@ p:not(:last-of-type),
     font-size: 4.2rem;
   }
 }
+
+.link-interativo {
+  color: blue;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.link-interativo:hover {
+  color: darkblue;
+}
+
