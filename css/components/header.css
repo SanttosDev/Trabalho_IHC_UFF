@@ -58,3 +58,8 @@ header .header__right .header__image .background {
     margin: 2rem auto 4rem;
   }
 }
+
+.button-link p {
+  color: #0000EE; 
+  font-weight: bold;
+}
