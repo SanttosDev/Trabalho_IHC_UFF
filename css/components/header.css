@@ -63,3 +63,17 @@ header .header__right .header__image .background {
   color: #0000EE; 
   font-weight: bold;
 }
+
+.desk-research__image {
+  width: 100%; 
+  height: auto; 
+  max-width: 800px; 
+  display: block; 
+  margin: 0 auto;
+}
+
+.educacao-research__image {
+  width: 400%; 
+  height: auto; 
+  max-width: 400px; 
+}
