@@ -22,6 +22,19 @@ main {
     margin: 0 auto;
 }
 
+.desk-research__image {
+    width: 100%; 
+    height: auto; 
+    max-width: 800px; 
+    display: block; 
+    margin: 0 auto;
+  }
+
+.button-link p {
+    color: #0000EE; 
+    font-weight: bold;
+  }
+
 .profile {
     background-color: #fff;
     border-radius: 8px;
