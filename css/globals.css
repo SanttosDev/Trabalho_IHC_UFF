@@ -176,3 +176,64 @@ p:not(:last-of-type),
 .button:hover {
   background-color: #45a049;
 }
+
+.team-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.team-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.team-member {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.member-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.member-name {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.member-role {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.member-description {
+  color: #777;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
