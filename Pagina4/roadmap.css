@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: #f9f9f9;
   color: #333;
+  margin-top: 25px;
 }
 
 header {
@@ -20,6 +21,7 @@ main {
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 80px;
 }
 
 .profile {
@@ -33,11 +35,11 @@ main {
 }
 
 .profile-content {
+  margin-top: 20px;
   flex: 1;
 }
 
 .profile h2 {
-  margin-top: 0;
   color: #4CAF50;
 }
 
