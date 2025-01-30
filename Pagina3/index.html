@@ -4,16 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="etapa3.css" />
-    
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Avaliação</title>
 </head>
 <body>
-    <header>
-        <h1>Etapa de implementação (avaliação)</h1>
-        <a href="https://santtosdev.github.io/Trabalho_IHC_UFF/">Voltar para a página inicial</a>
-    </header>
-    <main>
-        <section class="profile">
+
+    
+  
+  <nav class="bg-[#4CAF50] p-6 flex justify-between fixed top-0 w-full items-center">
+    <h2 class="font-bold text-white md:text-medium text-xl">Educação Financeira</h2>
+
+    <ul class="hidden lg:flex gap-12 pr-16 text-white">
+      <li><a href="/index.html">Início</a></li>
+      <li><a href="/Pagina2" target="_self">Personas & Prototipação</a></li>
+      <li><a href="/Pagina3" target="_self">Avaliação</a></li>
+      <li><a href="/Pagina4" target="_self">Roadmap</a></li>
+      <li><a href="#footer">Contato</a></li>
+    </ul>
+
+ 
+    <div class="lg:hidden">
+      <button id="menu-btn">
+        <img src="../assets/Menub.png" alt="menu" class="w-10">
+      </button>
+
+      <ul id="mobile-menu" class="hidden absolute top-20 right-4 bg-[#4CAF50] text-white p-4 rounded-lg shadow-lg">
+      <li><a href="/index.html">Início</a></li>
+      <li><a href="/Pagina2" target="_self">Personas & Prototipação</a></li>
+      <li><a href="/Pagina3" target="_self">Avaliação</a></li>
+      <li><a href="/Pagina4" target="_self">Roadmap</a></li>
+      <li><a href="#footer">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+        <section class="profile mt-24">
             <div class="profile-content">
                 <h2>Avaliação Heurística</h2>
                 <p class="paragraph">
@@ -131,6 +155,47 @@
             </div>
         </section>
 
-    </main>
+        <section class="p-6 bg-gray-50 rounded-lg shadow-lg ">
+          <h2 class="text-2xl font-semibold text-gray-800 mb-4">Teste de Usabilidade</h2>
+          <p class="text-gray-700 mb-4">
+            Para concluir as avaliações deste projeto, foram realizados testes de usabilidade com o objetivo de entender se as interações dos usuários com o sistema estão ocorrendo conforme o previsto.
+            Para isso, foram definidas tarefas relacionadas às funcionalidades centrais do aplicativo, e cinco participantes, com perfis variados, foram selecionados para representar os usuários.
+          </p>
+        
+          <h3 class="text-xl font-medium text-gray-800 mb-2">Usuários</h3>
+          <p class="text-gray-700 mb-4">
+            Coletamos informações sobre os participantes, como profissão, idade e familiaridade com o mundo financeiro. Eles foram divididos em dois grupos: aqueles que já utilizam aplicativos financeiros e os que não. A seguir estão os dados coletados:
+          </p>
+          <img src="assets3/teste_usabilidade_participantes.png" class="w-full max-w-[700px] rounded-lg shadow-md mb-4" />
+        
+          <h3 class="text-xl font-medium text-gray-800 mb-2">Tarefas</h3>
+          <p class="text-gray-700 mb-4">
+            Foram selecionadas três tarefas para avaliar a usabilidade do aplicativo:
+            <ol class="list-decimal list-inside text-gray-700 mb-4">
+              <li>Fazer um investimento</li>
+              <li>Visualizar total de fatura</li>
+              <li>Assistir a um vídeo</li>
+            </ol>
+            Para cada tarefa, coletamos feedbacks dos usuários e identificamos eventuais dificuldades encontradas durante a execução. Segue o resultado, e a descrição de cada etapa.
+          </p>
+        
+          <h4 class="text-lg font-semibold text-gray-800 mb-2">1. Fazer um investimento</h4>
+          <img src="assets3/teste_usabilidade_tarefa_1.png" class="w-full max-w-[1000px] rounded-lg shadow-md mb-4" />
+        
+          <h4 class="text-lg font-semibold text-gray-800 mb-2">2. Visualizar fatura</h4>
+          <img src="assets3/teste_usabilidade_tarefa_1.png" class="w-full max-w-[1000px] rounded-lg shadow-md mb-4" />
+        
+          <h4 class="text-lg font-semibold text-gray-800 mb-2">3. Assistir a um vídeo</h4>
+          <img src="assets3/teste_usabilidade_tarefa_1.png" class="w-full max-w-[1000px] rounded-lg shadow-md mb-4" />
+        
+          <h4 class="text-xl font-bold text-gray-800 mb-2">Conclusão</h4>
+          <p class="text-gray-700 mb-4">
+            A partir dos dados coletados, foram obtidos insights valiosos que ajudarão na implementação de melhorias no aplicativo.
+          </p>
+          <img src="assets3/teste_usabilidade_ocorrencias_participante_linha.png" class="w-full max-w-[1000px] rounded-lg shadow-md mb-4" />
+        </section>
+        
+
+    <script src="../scripts/navBarScript.js"></script>
 </body>
 </html>

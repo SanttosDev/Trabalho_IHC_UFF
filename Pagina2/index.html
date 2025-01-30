@@ -4,18 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pagina2.css" />
-    
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Educação Financeira</title>
+    
 </head>
 <body>
-    <header>
-        <h1>Personas & Prototipação</h1>
-       <a href="https://santtosdev.github.io/Trabalho_IHC_UFF/">Voltar para a página inicial</a>
-    </header>
-    <main>
+  <nav class="bg-[#4CAF50] p-6 flex justify-between fixed top-0 w-full items-center">
+    <h2 class="font-bold text-white md:text-medium text-xl">Educação Financeira</h2>
 
-        <!-- Sobre -->
-  <section id="about" class="desk-research max-width">
+    <ul class="hidden lg:flex gap-12 pr-16 text-white">
+      <li><a href="/index.html">Início</a></li>
+      <li><a href="/Pagina2" target="_self">Personas & Prototipação</a></li>
+      <li><a href="/Pagina3" target="_self">Avaliação</a></li>
+      <li><a href="/Pagina4" target="_self">Roadmap</a></li>
+      <li><a href="#footer">Contato</a></li>
+    </ul>
+
+ 
+    <div class="lg:hidden">
+      <button id="menu-btn">
+        <img src="../assets/Menub.png" alt="menu" class="w-10">
+      </button>
+
+      <ul id="mobile-menu" class="hidden absolute top-20 right-4 bg-[#4CAF50] text-white p-4 rounded-lg shadow-lg">
+        <li><a href="/index.html">Início</a></li>
+      <li><a href="/Pagina2" target="_self">Personas & Prototipação</a></li>
+      <li><a href="/Pagina3" target="_self">Avaliação</a></li>
+      <li><a href="/Pagina4" target="_self">Roadmap</a></li>
+      <li><a href="#footer">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main>
+  <section id="about" class="desk-research max-width mt-24">
     <div class="desk-research__text">
       <h2 class="secondary-title">Sobre</h2>
       <p>
@@ -321,3 +342,5 @@
       <p>A visibilidade prática e de fácil entendimento do aplicativo gera uma confiabilidade maior tanto no aplicativo quanto na instituição. Tendo em vista que o usuário ao utilizar a plataforma ira encontrar o que precisa mais facilmente e conseguira resolver problemas de forma simplificada.</p>
     </div>
   </section>
+
+  <script src="../scripts/navBarScript.js"></script>

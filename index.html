@@ -9,12 +9,11 @@
   <link rel="shortcut icon" href="assets/favicon.Js.ico" type="image/x-icon">
 
 
-  <!-- title -->
+  
   <title>Educação Financeira</title>
-  <!-- CSS -->
   <link rel="stylesheet" href="css/extends.css" />
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
   <style>
@@ -29,32 +28,36 @@
 </head>
 
 <body>
-  <!-- navbar -->
-  <nav class="navbar">
-    <div class="navbar__content max-width mb-0">
-      <h2>Educação Financeira</h2>
-      <ul class="navbar__links">
-        <li><a href="#header">Início</a></li>
-        <li><a href="Pagina2/Personas.html" target="_self">Personas & Prototipação</a></li>
-        <li><a href="Pagina3/etapa3.html" target="_self">Avaliação</a></li>
-        <li><a href="Pagina4/roadmap.html" target="_self">Roadmap</a></li>
-        <li><a href="#footer">Contato</a></li>
+
+
+  <nav class="index-10 bg-[#4CAF50] p-6 flex justify-between fixed top-0 w-full items-center">
+    <h2 class="font-bold text-white md:text-medium text-xl">Educação Financeira</h2>
+
+    <ul class="hidden lg:flex gap-12 pr-16 text-white">
+      <li><a href="/index.html">Início</a></li>
+      <li><a href="/Pagina2" target="_self">Personas & Prototipação</a></li>
+      <li><a target="_self" href="Pagina3">Avaliação</a></li>
+      <li><a href="/Pagina4" target="_self">Roadmap</a></li>
+      <li><a href="#footer">Contato</a></li>
+    </ul>
+
+ 
+    <div class="lg:hidden">
+      <button id="menu-btn">
+        <img src="../assets/Menub.png" alt="menu" class="w-10">
+      </button>
+
+      <ul id="mobile-menu" class="hidden absolute top-20 right-4 bg-[#4CAF50] text-white p-4 rounded-lg shadow-lg">
+        <li class="py-2"><a href="index.html">Início</a></li>
+        <li class="py-2"><a href="Pagina2" target="_self">Personas & Prototipação</a></li>
+        <li class="py-2"><a href="Pagina3" target="_self">Avaliação</a></li>
+        <li class="py-2"><a href="Pagina4" target="_self">Roadmap</a></li>
+        <li class="py-2"><a href="#footer">Contato</a></li>
       </ul>
-      <div class="navbar__mobile">
-        <img src="assets/Menub.png" alt="menu" class="burguer" />
-        <ul class="mobile__links">
-          <li><a href="#header">Início</a></li>
-          <li><a href="Pagina2/Personas.html" target="_self">Personas & Prototipação</a></li>
-          <li><a href="Pagina3/etapa3.html" target="_self">Avaliação</a></li>
-          <li><a href="Pagina4/roadmap.html" target="_self">Roadmap</a></li>
-          <li><a href="#footer">Contato</a></li>
-        </ul>
-      </div>
     </div>
   </nav>
-  
   <!-- header -->
-  <header id="header" class="max-width">
+  <header id="header" class="max-width mt-24">
       <div class="header__right">
         <img src="assets/Educação_Financeira_sem_fundo.png" alt="Desk Research - Certezas, Suposições e Dúvidas" class="educacao-research__image" />
       </div>
@@ -467,6 +470,8 @@
   </footer>
   <!-- script -->
   <script src="scripts/index.js"></script>
+  <script src="scripts/navBarScript.js"></script>
+
 </body>
 
 </html>
